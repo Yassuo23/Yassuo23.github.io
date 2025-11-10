@@ -1,0 +1,94 @@
+h1 {
+	font-family: "Raleway", sans-serif ;
+    font-style: italic;
+	color: #ad404d;
+	font-size: 3rem;
+	text-shadow: 3px 3px black;
+	display: flex;
+	align-self: center;
+	margin-bottom: 100px;
+}
+
+
+
+
+.Voltar {
+	display: inline-block;
+	color: white;
+	padding: 15px 25px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color:#ad404d ;
+	border: none;
+	border-radius: 15px;
+	font-family: "Raleway", sans-serif ;
+	transition-duration: 0.4s;
+	font-style: italic;
+	text-shadow: 2px 2px black;
+	
+  }
+
+.Voltar:hover {
+	background-color: #85333c;
+	
+}
+
+.discos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+	justify-items: center;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+    gap: 20px;
+    flex-wrap: wrap;
+	flex-direction: row;
+	width: 75%;
+	align-self: center;
+	background-color: #85333c;
+}
+
+.discos a img {
+    border-radius: 15px;
+	width: 50%;
+	height: 100%;
+}
+
+.discos a {
+	border: 0px;
+	background-color: transparent;
+	align-self: center;
+	justify-self: center;
+}
+
+.discos a img {
+	transition: 0.5s;
+}
+
+.discos a img:hover {
+	height: 425px;
+	width: 450px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	
+}
+
+
+@media (min-width: 1024px) {
+
+	h1 {
+		font-size: 5rem;
+	}
+
+	.Voltar{
+		font-size: 1.5rem;
+	}
+}
