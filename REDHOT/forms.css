@@ -1,6 +1,6 @@
 label {
 	font-family: "Raleway", sans-serif;
-	font-size: 30px;
+	font-size: 1.875em;
     font-weight: bold;
 	display: block;
     background-image: linear-gradient(to right, rgb(173, 14, 14), rgb(104, 10, 10), black);
@@ -13,7 +13,7 @@ label {
     color: transparent;
     background-clip: text;
     background-image: radial-gradient(circle, rgb(136, 12, 12), rgb(58, 6, 6), black);
-    font-size: 60px;
+    font-size: 3.75em;
     align-items: center;
     font-family: "Raleway", sans-serif ;
   
@@ -30,36 +30,36 @@ body form{
 }
 
 form {
-    height: 1000px;
-    width: 1000px;
+    height: 62.5em;
+    width: 62.5em;
     margin: 0 auto;
-    padding-top: 30px;
-    border-radius: 20px;
+    padding-top: 1.875em;
+    border-radius: 1.25em;
     
 }
 
 .sexo {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .Membros {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .Fan {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .span1 {
 	font-family: "raleway", sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 button {
 	display: inline-block;
 	color: white;
-	padding: 15px 25px;
-	font-size: 24px;
+	padding: 0.938em 1.563em;
+	font-size: 1.5em;
 	font-weight: bold;
 	cursor: pointer;
 	text-align: center;
@@ -67,7 +67,7 @@ button {
 	outline: none;
 	background-color:#ad404d ;
 	border: none;
-	border-radius: 15px;
+	border-radius: 0.938em;
 	font-family: "Raleway", sans-serif ;
 	transition-duration: 0.4s;
 	
@@ -84,13 +84,13 @@ input[type=submit] {
 	background-color: #ad404d;
 	color: white;
 	font-family: "raleway", sans-serif;
-	padding: 12px 24px;
-    margin-top: 60px;
-	margin: 4px, 2px;
-	font-size: 25px;
+	padding: 0.75em 1.5em;
+    margin-top: 3.75em;
+	margin: 0.25em, 0.125em;
+	font-size: 1.563em;
     font-weight: bold;
 	cursor: pointer;
-	border-radius: 8px;
+	border-radius: 0.5em;
 	transition: 0.5s;
     width: 80%;
     background: radial-gradient(circle, rgb(136, 12, 12), rgb(58, 6, 6), black);
@@ -108,11 +108,11 @@ input[type=date],
 input[type=password],
 textarea {
     width: 80%;
-	padding: 12px 20px;
-	margin: 8px 0;
+	padding: 0.75em 1.25em;
+	margin: 0.5em 0;
 	display: inline-block;
-	border: 3px solid #4d4747;
-    border-radius: 10px;
+	border: 0.188em solid #4d4747;
+    border-radius: 0.625em;
 	box-sizing: border-box;
 	-webkit-transition: 0.5s;
 	transition: 0.5;
@@ -124,18 +124,18 @@ input[type=text]:focus,
 input[type=password]:focus,
 input[type=date]:focus
 {
-   border: 3px, solid, #242222; 
+   border: 0.188em, solid, #242222; 
 }
 
 input[type=range]
 {
     width: 20%;
-    border-width: 2px;
+    border-width: 0.125em;
 }
 
 label {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 0.625em;
+    margin-bottom: 0.313em;
     
 }
 
