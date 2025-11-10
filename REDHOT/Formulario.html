@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro</title>
+	<link rel="icon" href="logoRed.png">
+	<a href="redhot.html"><button type="button" >Voltar</button></a>
+
+</head>
+<body>
+
+
+
+<form align="center">
+	<h1 class="negrito"><b >CADASTRO DE USUÁRIO</b></h1>
+
+
+	
+	<label for="nome">NOME:</label>
+	<input type="text" placeholder="Informe seu nome Completo" name="nome" maxlength="100" required minlength="10" id="nome">
+
+	
+	<label	for="Cpf">CPF:</label> 
+	<Input type="text" placeholder="Ex: 135.832.624-93" id="nome"></Input>	
+
+	<label for="senha">SENHA:</label>
+	<input type="password" placeholder="Informe uma senha forte" name="senha" maxlength="50" required minlength="8" id="senha">
+
+	<label for="Nascimento">DATA DE NASCIMENTO:</label>
+	<input type="date" name="Nascimento" id="Nascimento" min="14" max="100">
+	
+	<label for="sexo" class="sexo">SEXO:</label>
+	<input type="radio" name="sexo" id="sexo" value="F">
+	<label for="sexo" style="display: inline;">Feminino</label>
+	<input type="radio" name="sexo" id="sexo" value="M">
+	<label for="sexo" style="display: inline;">Masculino</label>
+	</table>
+
+		
+		<label for="i" class="Membros" >MEMBROS PREFERIDOS:</label>
+      <input type="checkbox" name="J" id="J"> <span class="span1">John</span>
+      <input type="checkbox" name="C" id="C"> <span class="span1">Chad</span>
+      <input type="checkbox" name="A" id="A"> <span class="span1">Anthony</span>
+      <input type="checkbox" name="F" id="F"> <span class="span1">Flea</span>
+      		
+	<label for="Fan" class="Fan">QUÃO FÃ VOCÊ É?</label>
+	<span class="span1">0</span> <input type="range" name="Fan" id="Fan" min="0" max="100" value="20"> <span class="span1">100</span>
+
+	<br>
+
+	<input type="submit" name="btn" id="btn" value="CADASTRAR" width="20" height="40">
+	
+</form>
+
+
+</body>
+</html>

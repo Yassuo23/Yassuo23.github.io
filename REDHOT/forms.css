@@ -1,0 +1,141 @@
+label {
+	font-family: "Raleway", sans-serif;
+	font-size: 30px;
+    font-weight: bold;
+	display: block;
+    background-image: linear-gradient(to right, rgb(173, 14, 14), rgb(104, 10, 10), black);
+    color: transparent;
+    background-clip: text;
+}
+
+.negrito {
+
+    color: transparent;
+    background-clip: text;
+    background-image: radial-gradient(circle, rgb(136, 12, 12), rgb(58, 6, 6), black);
+    font-size: 60px;
+    align-items: center;
+    font-family: "Raleway", sans-serif ;
+  
+
+}
+
+body {
+    background-image: radial-gradient(circle, rgb(243, 11, 11), rgb(122, 9, 9), rgb(48, 4, 4));
+}
+
+body form{
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+}
+
+form {
+    height: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 20px;
+    
+}
+
+.sexo {
+    margin-top: 20px;
+}
+
+.Membros {
+    margin-top: 20px;
+}
+
+.Fan {
+    margin-top: 20px;
+}
+
+.span1 {
+	font-family: "raleway", sans-serif;
+	font-size: 20px;
+}
+
+button {
+	display: inline-block;
+	color: white;
+	padding: 15px 25px;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color:#ad404d ;
+	border: none;
+	border-radius: 15px;
+	font-family: "Raleway", sans-serif ;
+	transition-duration: 0.4s;
+	
+}
+
+button:hover {
+	background-color: #85333c;
+}
+
+
+
+input[type=submit] {
+	border: none;
+	background-color: #ad404d;
+	color: white;
+	font-family: "raleway", sans-serif;
+	padding: 12px 24px;
+    margin-top: 60px;
+	margin: 4px, 2px;
+	font-size: 25px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: 0.5s;
+    width: 80%;
+    background: radial-gradient(circle, rgb(136, 12, 12), rgb(58, 6, 6), black);
+	
+}
+
+input[type=submit]:hover {
+	width: 85%;
+
+}
+
+
+input[type=text],
+input[type=date],
+input[type=password],
+textarea {
+    width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid #4d4747;
+    border-radius: 10px;
+	box-sizing: border-box;
+	-webkit-transition: 0.5s;
+	transition: 0.5;
+	outline: none;
+    transition: 0.5;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=date]:focus
+{
+   border: 3px, solid, #242222; 
+}
+
+input[type=range]
+{
+    width: 20%;
+    border-width: 2px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
