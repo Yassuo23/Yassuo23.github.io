@@ -1,174 +1,161 @@
 h1 {
-	font-family: "Raleway", sans-serif ;
+    font-family: "Raleway", sans-serif;
 }
-
-.navbar .discografia {
-	padding-left: 1.25em;
-}
-
 
 body {
-	background-color: lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
 }
 
 b {
-	font-style: italic;
+    font-style: italic;
 }
 
-
 p {
-	font-family: "Raleway", sans-serif;
-	padding-left: 6.5%;
-	padding-right: 6.5%;
+    font-family: "Raleway", sans-serif;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+.navbar .discografia {
+    padding-left: 1.25em;
 }
 
 .negrito {
-	color: #ad404d;
-
+    color: #ad404d;
 }
 
 .video {
-	justify-self: center;
-	justify-content: center;
-	display: flex;
-	max-width: 80%;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    max-width: 80%;
 }
 
 video {
-	width:100%;
-	height:auto;
+    width: 100%;
+    height: auto;
 }
 
-.titulo
-{
-	font-size: 6.25em;
-	text-align: center;
-	color: #ad404d;
-	text-shadow: 0.19em 0.19em black;
-	margin-top: 3.75em;
-	margin-bottom: 5em;
+.titulo {
+    font-size: 6.25em;
+    text-align: center;
+    color: #ad404d;
+    text-shadow: 0.19em 0.19em black;
+    margin-top: 3.75em;
+    margin-bottom: 5em;
 }
 
 #Tabela {
-	font-family: "Raleway", sans-serif;
-	border-collapse: collapse;
-	width: 60%;
-	border-color: black;
-
+    font-family: "Raleway", sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    border-color: black;
 }
 
-#Tabela td, #Tabela th {
-	border: 0.06em solid ;
-	padding: 0.5em;
+#Tabela td, 
+#Tabela th {
+    border: 0.06em solid;
+    padding: 0.5em;
 }
 
 #Tabela th {
-	background-color:#ad404d;
-	padding-bottom:0.75em ;
+    background-color: #ad404d;
+    padding-bottom: 0.75em;
 }
 
 hr {
-	color: black;
+    color: black;
 }
 
 li {
-	font-size: 30px;
+    font-size: 1.875em;
+}
 
+a {
+    color: #ad404d;
 }
 
 button {
-	display: inline-block;
-	color: white;
-	padding: 15px 25px;
-	font-size: 24px;
-	font-weight: bold;
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	outline: none;
-	background-color:#ad404d ;
-	border: none;
-	border-radius: 15px;
-	font-family: "Raleway", sans-serif ;
-	transition-duration: 0.4s;
-	text-shadow: 3px 3px black;
-	font-style: italic;
-	
-  }
+    display: inline-block;
+    color: white;
+    padding: 0.9375em 1.5625em;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #ad404d;
+    border: none;
+    border-radius: 0.375em;
+    font-family: "Raleway", sans-serif;
+    transition-duration: 0.4s;
+    text-shadow: 0.1875em 0.1875em black;
+    font-style: italic;
+}
 
 button:hover {
-	background-color: #85333c;
-	
+    background-color: #85333c;
 }
 
 input {
-	padding: 10px;
-	border-radius: 10px;
-
-
+    padding: 0.625em;
+    border-radius: 0.625em;
 }
 
-  input[type=text] {
-	width: 30%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 3px solid #ccc;
-	box-sizing: border-box;
-	-webkit-transition: 0.5s;
-	transition: 0.5;
-	outline: none;
-  }
+input[type=text] {
+    width: 30%;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 0.1875em solid #ccc;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
 
-  input[type=text]:focus
-  {
-	border: 3px, solid, #7c7b7b;
+input[type=text]:focus {
+    border: 0.1875em solid #7c7b7b;
+}
 
-  }
+input[type=date], 
+select {
+    width: 20%;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 0.1875em solid #ccc;
+    box-sizing: border-box;
+    transition: 0.5s;
+    outline: none;
+}
 
-  input[type=date], select {
-	width: 20%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 3px solid #ccc;
-	box-sizing: border-box;
-	transition: 0.5s;
-	outline: none ;
-  }
-
-  input[type=date]:focus{
-	border: 3px solid #7c7b7b;
-  }
+input[type=date]:focus {
+    border: 0.1875em solid #7c7b7b;
+}
 
 input[type=submit] {
-	border: none;
-	background-color: #ad404d;
-	color: white;
-	font-family: "raleway", sans-serif;
-	padding: 12px 24px;
-	margin: 4px, 2px;
-	font-size: 25px;
-	cursor: pointer;
-	border-radius: 8px;
-	transition: 0.5s;
-	
+    border: none;
+    background-color: #ad404d;
+    color: white;
+    font-family: "raleway", sans-serif;
+    padding: 0.75em 1.5em;
+    margin: 0.25em 0.125em;
+    font-size: 1.5625em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    transition: 0.5s;
 }
 
 input[type=submit]:hover {
-	background-color: #85333c;
-
-}
-
-
-a {
-	color: #ad404d;
+    background-color: #85333c;
 }
 
 .container {
-	box-shadow: 0px 4px 8px;
-	border-radius: 10px;
-	padding: 40px;
+    box-shadow: 0em 0.25em 0.5em;
+    border-radius: 0.625em;
+    padding: 2.5em;
 }
 
 
