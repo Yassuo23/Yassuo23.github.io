@@ -3,7 +3,7 @@ h1 {
 }
 
 .navbar .discografia {
-	padding-left: 20px;
+	padding-left: 1.25em;
 }
 
 
@@ -41,12 +41,12 @@ video {
 
 .titulo
 {
-	font-size: 100px;
+	font-size: 6.25em;
 	text-align: center;
 	color: #ad404d;
-	text-shadow: 3px 3px black;
-	margin-top: 60px;
-	margin-bottom: 80px;
+	text-shadow: 0.19em 0.19em black;
+	margin-top: 3.75em;
+	margin-bottom: 5em;
 }
 
 #Tabela {
@@ -58,13 +58,13 @@ video {
 }
 
 #Tabela td, #Tabela th {
-	border: 1px solid ;
-	padding: 8px;
+	border: 0.06em solid ;
+	padding: 0.5em;
 }
 
 #Tabela th {
 	background-color:#ad404d;
-	padding-bottom:12px ;
+	padding-bottom:0.75em ;
 }
 
 hr {
@@ -170,6 +170,7 @@ a {
 	border-radius: 10px;
 	padding: 40px;
 }
+
 
 
 
